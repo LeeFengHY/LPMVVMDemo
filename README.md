@@ -21,9 +21,10 @@
         customObj:(id)obj
         indexPath:(NSIndexPath *)indexPath;
 
-`    #pragma mark --public
+`#pragma mark --public`
+          
 + (void)registerTable:(UITableView *)tableView
         nibIdentifier:(NSString *)identifier
 {
     [tableView registerNib:[UINib nibWithNibName:identifier bundle:nil] forCellReuseIdentifier:identifier];
-}`
+}
