@@ -21,18 +21,4 @@
         customObj:(id)obj
         indexPath:(NSIndexPath *)indexPath;
 
-`#pragma mark --public`
-
-          /**
- *  绑定cell和model
- *
- *  @param cell      <#cell description#>
- *  @param obj       <#obj description#>
- *  @param indexPath <#indexPath description#>
- */
-- (void)configure:(UITableViewCell *)cell
-        customObj:(id)obj
-        indexPath:(NSIndexPath *)indexPath
-{
-    //模型赋值 coding here
-}
+          
