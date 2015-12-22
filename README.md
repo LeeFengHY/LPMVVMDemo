@@ -17,6 +17,13 @@
     [_viewModel handleDateSourceAndDelegateWithTableView:_tableView];
 
 > 绑定view和model
-* - (void)configure:(UITableViewCell *)cell
+ - (void)configure:(UITableViewCell *)cell
         customObj:(id)obj
         indexPath:(NSIndexPath *)indexPath;
+
+`#pragma mark --public
++ (void)registerTable:(UITableView *)tableView
+        nibIdentifier:(NSString *)identifier
+{
+    [tableView registerNib:[UINib nibWithNibName:identifier bundle:nil] forCellReuseIdentifier:identifier];
+}`
