@@ -22,3 +22,5 @@
         indexPath:(NSIndexPath *)indexPath;
 
           
+
+          [tableView registerNib:[UINib nibWithNibName:identifier bundle:nil] forCellReuseIdentifier:identifier];
