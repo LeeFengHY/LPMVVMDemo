@@ -15,6 +15,11 @@
 		EEECDA031C28EFAC005ED60C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEECDA011C28EFAC005ED60C /* LaunchScreen.storyboard */; };
 		EEECDA0E1C28EFAC005ED60C /* LPMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA0D1C28EFAC005ED60C /* LPMVVMDemoTests.m */; };
 		EEECDA191C28EFAC005ED60C /* LPMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA181C28EFAC005ED60C /* LPMVVMDemoUITests.m */; };
+		EEECDA291C28EFFF005ED60C /* MVVMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA271C28EFFF005ED60C /* MVVMCell.m */; };
+		EEECDA2A1C28EFFF005ED60C /* MVVMCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEECDA281C28EFFF005ED60C /* MVVMCell.xib */; };
+		EEECDA2D1C28F139005ED60C /* LPTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA2C1C28F139005ED60C /* LPTableViewModel.m */; };
+		EEECDA371C28F4F6005ED60C /* UITableViewCell+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA361C28F4F6005ED60C /* UITableViewCell+Expand.m */; };
+		EEECDA3A1C28FF57005ED60C /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA391C28FF57005ED60C /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		EEECDA141C28EFAC005ED60C /* LPMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEECDA181C28EFAC005ED60C /* LPMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMVVMDemoUITests.m; sourceTree = "<group>"; };
 		EEECDA1A1C28EFAC005ED60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEECDA261C28EFFF005ED60C /* MVVMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMCell.h; sourceTree = "<group>"; };
+		EEECDA271C28EFFF005ED60C /* MVVMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMCell.m; sourceTree = "<group>"; };
+		EEECDA281C28EFFF005ED60C /* MVVMCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVVMCell.xib; sourceTree = "<group>"; };
+		EEECDA2B1C28F139005ED60C /* LPTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTableViewModel.h; sourceTree = "<group>"; };
+		EEECDA2C1C28F139005ED60C /* LPTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTableViewModel.m; sourceTree = "<group>"; };
+		EEECDA351C28F4F6005ED60C /* UITableViewCell+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Expand.h"; sourceTree = "<group>"; };
+		EEECDA361C28F4F6005ED60C /* UITableViewCell+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Expand.m"; sourceTree = "<group>"; };
+		EEECDA381C28FF57005ED60C /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		EEECDA391C28FF57005ED60C /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				EEECD9F71C28EFAC005ED60C /* AppDelegate.m */,
 				EEECD9F91C28EFAC005ED60C /* ViewController.h */,
 				EEECD9FA1C28EFAC005ED60C /* ViewController.m */,
+				EEECDA2B1C28F139005ED60C /* LPTableViewModel.h */,
+				EEECDA2C1C28F139005ED60C /* LPTableViewModel.m */,
+				EEECDA351C28F4F6005ED60C /* UITableViewCell+Expand.h */,
+				EEECDA361C28F4F6005ED60C /* UITableViewCell+Expand.m */,
+				EEECDA261C28EFFF005ED60C /* MVVMCell.h */,
+				EEECDA271C28EFFF005ED60C /* MVVMCell.m */,
+				EEECDA281C28EFFF005ED60C /* MVVMCell.xib */,
+				EEECDA381C28FF57005ED60C /* CellModel.h */,
+				EEECDA391C28FF57005ED60C /* CellModel.m */,
 				EEECD9FC1C28EFAC005ED60C /* Main.storyboard */,
 				EEECD9FF1C28EFAC005ED60C /* Assets.xcassets */,
 				EEECDA011C28EFAC005ED60C /* LaunchScreen.storyboard */,
@@ -246,6 +269,7 @@
 				EEECDA031C28EFAC005ED60C /* LaunchScreen.storyboard in Resources */,
 				EEECDA001C28EFAC005ED60C /* Assets.xcassets in Resources */,
 				EEECD9FE1C28EFAC005ED60C /* Main.storyboard in Resources */,
+				EEECDA2A1C28EFFF005ED60C /* MVVMCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEECD9FB1C28EFAC005ED60C /* ViewController.m in Sources */,
+				EEECDA371C28F4F6005ED60C /* UITableViewCell+Expand.m in Sources */,
 				EEECD9F81C28EFAC005ED60C /* AppDelegate.m in Sources */,
 				EEECD9F51C28EFAC005ED60C /* main.m in Sources */,
+				EEECDA3A1C28FF57005ED60C /* CellModel.m in Sources */,
+				EEECDA2D1C28F139005ED60C /* LPTableViewModel.m in Sources */,
+				EEECDA291C28EFFF005ED60C /* MVVMCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
