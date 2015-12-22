@@ -23,4 +23,5 @@
 
           
 
+*注册cell*
      [tableView registerNib:[UINib nibWithNibName:identifier bundle:nil] forCellReuseIdentifier:identifier];
