@@ -22,8 +22,17 @@
         indexPath:(NSIndexPath *)indexPath;
 
 `#pragma mark --public`
-          + (void)registerTable:(UITableView *)tableView
-        nibIdentifier:(NSString *)identifier
+
+          /**
+ *  绑定cell和model
+ *
+ *  @param cell      <#cell description#>
+ *  @param obj       <#obj description#>
+ *  @param indexPath <#indexPath description#>
+ */
+- (void)configure:(UITableViewCell *)cell
+        customObj:(id)obj
+        indexPath:(NSIndexPath *)indexPath
 {
-    [tableView registerNib:[UINib nibWithNibName:identifier bundle:nil] forCellReuseIdentifier:identifier];
+    //模型赋值 coding here
 }
