@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEECD9F51C28EFAC005ED60C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECD9F41C28EFAC005ED60C /* main.m */; };
+		EEECD9F81C28EFAC005ED60C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECD9F71C28EFAC005ED60C /* AppDelegate.m */; };
+		EEECD9FB1C28EFAC005ED60C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECD9FA1C28EFAC005ED60C /* ViewController.m */; };
+		EEECD9FE1C28EFAC005ED60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEECD9FC1C28EFAC005ED60C /* Main.storyboard */; };
+		EEECDA001C28EFAC005ED60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEECD9FF1C28EFAC005ED60C /* Assets.xcassets */; };
+		EEECDA031C28EFAC005ED60C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEECDA011C28EFAC005ED60C /* LaunchScreen.storyboard */; };
+		EEECDA0E1C28EFAC005ED60C /* LPMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA0D1C28EFAC005ED60C /* LPMVVMDemoTests.m */; };
+		EEECDA191C28EFAC005ED60C /* LPMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA181C28EFAC005ED60C /* LPMVVMDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEECDA0A1C28EFAC005ED60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEECD9E81C28EFAC005ED60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEECD9EF1C28EFAC005ED60C;
+			remoteInfo = LPMVVMDemo;
+		};
+		EEECDA151C28EFAC005ED60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEECD9E81C28EFAC005ED60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEECD9EF1C28EFAC005ED60C;
+			remoteInfo = LPMVVMDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEECD9F01C28EFAC005ED60C /* LPMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEECD9F41C28EFAC005ED60C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEECD9F61C28EFAC005ED60C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEECD9F71C28EFAC005ED60C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEECD9F91C28EFAC005ED60C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEECD9FA1C28EFAC005ED60C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEECD9FD1C28EFAC005ED60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEECD9FF1C28EFAC005ED60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEECDA021C28EFAC005ED60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEECDA041C28EFAC005ED60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEECDA091C28EFAC005ED60C /* LPMVVMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPMVVMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEECDA0D1C28EFAC005ED60C /* LPMVVMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMVVMDemoTests.m; sourceTree = "<group>"; };
+		EEECDA0F1C28EFAC005ED60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEECDA141C28EFAC005ED60C /* LPMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEECDA181C28EFAC005ED60C /* LPMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMVVMDemoUITests.m; sourceTree = "<group>"; };
+		EEECDA1A1C28EFAC005ED60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEECD9ED1C28EFAC005ED60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEECDA061C28EFAC005ED60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEECDA111C28EFAC005ED60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEECD9E71C28EFAC005ED60C = {
+			isa = PBXGroup;
+			children = (
+				EEECD9F21C28EFAC005ED60C /* LPMVVMDemo */,
+				EEECDA0C1C28EFAC005ED60C /* LPMVVMDemoTests */,
+				EEECDA171C28EFAC005ED60C /* LPMVVMDemoUITests */,
+				EEECD9F11C28EFAC005ED60C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEECD9F11C28EFAC005ED60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEECD9F01C28EFAC005ED60C /* LPMVVMDemo.app */,
+				EEECDA091C28EFAC005ED60C /* LPMVVMDemoTests.xctest */,
+				EEECDA141C28EFAC005ED60C /* LPMVVMDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEECD9F21C28EFAC005ED60C /* LPMVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEECD9F61C28EFAC005ED60C /* AppDelegate.h */,
+				EEECD9F71C28EFAC005ED60C /* AppDelegate.m */,
+				EEECD9F91C28EFAC005ED60C /* ViewController.h */,
+				EEECD9FA1C28EFAC005ED60C /* ViewController.m */,
+				EEECD9FC1C28EFAC005ED60C /* Main.storyboard */,
+				EEECD9FF1C28EFAC005ED60C /* Assets.xcassets */,
+				EEECDA011C28EFAC005ED60C /* LaunchScreen.storyboard */,
+				EEECDA041C28EFAC005ED60C /* Info.plist */,
+				EEECD9F31C28EFAC005ED60C /* Supporting Files */,
+			);
+			path = LPMVVMDemo;
+			sourceTree = "<group>";
+		};
+		EEECD9F31C28EFAC005ED60C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEECD9F41C28EFAC005ED60C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEECDA0C1C28EFAC005ED60C /* LPMVVMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEECDA0D1C28EFAC005ED60C /* LPMVVMDemoTests.m */,
+				EEECDA0F1C28EFAC005ED60C /* Info.plist */,
+			);
+			path = LPMVVMDemoTests;
+			sourceTree = "<group>";
+		};
+		EEECDA171C28EFAC005ED60C /* LPMVVMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEECDA181C28EFAC005ED60C /* LPMVVMDemoUITests.m */,
+				EEECDA1A1C28EFAC005ED60C /* Info.plist */,
+			);
+			path = LPMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEECD9EF1C28EFAC005ED60C /* LPMVVMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEECDA1D1C28EFAC005ED60C /* Build configuration list for PBXNativeTarget "LPMVVMDemo" */;
+			buildPhases = (
+				EEECD9EC1C28EFAC005ED60C /* Sources */,
+				EEECD9ED1C28EFAC005ED60C /* Frameworks */,
+				EEECD9EE1C28EFAC005ED60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPMVVMDemo;
+			productName = LPMVVMDemo;
+			productReference = EEECD9F01C28EFAC005ED60C /* LPMVVMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEECDA081C28EFAC005ED60C /* LPMVVMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEECDA201C28EFAC005ED60C /* Build configuration list for PBXNativeTarget "LPMVVMDemoTests" */;
+			buildPhases = (
+				EEECDA051C28EFAC005ED60C /* Sources */,
+				EEECDA061C28EFAC005ED60C /* Frameworks */,
+				EEECDA071C28EFAC005ED60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEECDA0B1C28EFAC005ED60C /* PBXTargetDependency */,
+			);
+			name = LPMVVMDemoTests;
+			productName = LPMVVMDemoTests;
+			productReference = EEECDA091C28EFAC005ED60C /* LPMVVMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEECDA131C28EFAC005ED60C /* LPMVVMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEECDA231C28EFAC005ED60C /* Build configuration list for PBXNativeTarget "LPMVVMDemoUITests" */;
+			buildPhases = (
+				EEECDA101C28EFAC005ED60C /* Sources */,
+				EEECDA111C28EFAC005ED60C /* Frameworks */,
+				EEECDA121C28EFAC005ED60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEECDA161C28EFAC005ED60C /* PBXTargetDependency */,
+			);
+			name = LPMVVMDemoUITests;
+			productName = LPMVVMDemoUITests;
+			productReference = EEECDA141C28EFAC005ED60C /* LPMVVMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEECD9E81C28EFAC005ED60C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = QFWang;
+				TargetAttributes = {
+					EEECD9EF1C28EFAC005ED60C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EEECDA081C28EFAC005ED60C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEECD9EF1C28EFAC005ED60C;
+					};
+					EEECDA131C28EFAC005ED60C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEECD9EF1C28EFAC005ED60C;
+					};
+				};
+			};
+			buildConfigurationList = EEECD9EB1C28EFAC005ED60C /* Build configuration list for PBXProject "LPMVVMDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEECD9E71C28EFAC005ED60C;
+			productRefGroup = EEECD9F11C28EFAC005ED60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEECD9EF1C28EFAC005ED60C /* LPMVVMDemo */,
+				EEECDA081C28EFAC005ED60C /* LPMVVMDemoTests */,
+				EEECDA131C28EFAC005ED60C /* LPMVVMDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEECD9EE1C28EFAC005ED60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEECDA031C28EFAC005ED60C /* LaunchScreen.storyboard in Resources */,
+				EEECDA001C28EFAC005ED60C /* Assets.xcassets in Resources */,
+				EEECD9FE1C28EFAC005ED60C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEECDA071C28EFAC005ED60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEECDA121C28EFAC005ED60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEECD9EC1C28EFAC005ED60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEECD9FB1C28EFAC005ED60C /* ViewController.m in Sources */,
+				EEECD9F81C28EFAC005ED60C /* AppDelegate.m in Sources */,
+				EEECD9F51C28EFAC005ED60C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEECDA051C28EFAC005ED60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEECDA0E1C28EFAC005ED60C /* LPMVVMDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEECDA101C28EFAC005ED60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEECDA191C28EFAC005ED60C /* LPMVVMDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEECDA0B1C28EFAC005ED60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEECD9EF1C28EFAC005ED60C /* LPMVVMDemo */;
+			targetProxy = EEECDA0A1C28EFAC005ED60C /* PBXContainerItemProxy */;
+		};
+		EEECDA161C28EFAC005ED60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEECD9EF1C28EFAC005ED60C /* LPMVVMDemo */;
+			targetProxy = EEECDA151C28EFAC005ED60C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEECD9FC1C28EFAC005ED60C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEECD9FD1C28EFAC005ED60C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEECDA011C28EFAC005ED60C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEECDA021C28EFAC005ED60C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEECDA1B1C28EFAC005ED60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEECDA1C1C28EFAC005ED60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEECDA1E1C28EFAC005ED60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEECDA1F1C28EFAC005ED60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEECDA211C28EFAC005ED60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPMVVMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPMVVMDemo.app/LPMVVMDemo";
+			};
+			name = Debug;
+		};
+		EEECDA221C28EFAC005ED60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPMVVMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPMVVMDemo.app/LPMVVMDemo";
+			};
+			name = Release;
+		};
+		EEECDA241C28EFAC005ED60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPMVVMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPMVVMDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEECDA251C28EFAC005ED60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPMVVMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPMVVMDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEECD9EB1C28EFAC005ED60C /* Build configuration list for PBXProject "LPMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEECDA1B1C28EFAC005ED60C /* Debug */,
+				EEECDA1C1C28EFAC005ED60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEECDA1D1C28EFAC005ED60C /* Build configuration list for PBXNativeTarget "LPMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEECDA1E1C28EFAC005ED60C /* Debug */,
+				EEECDA1F1C28EFAC005ED60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEECDA201C28EFAC005ED60C /* Build configuration list for PBXNativeTarget "LPMVVMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEECDA211C28EFAC005ED60C /* Debug */,
+				EEECDA221C28EFAC005ED60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEECDA231C28EFAC005ED60C /* Build configuration list for PBXNativeTarget "LPMVVMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEECDA241C28EFAC005ED60C /* Debug */,
+				EEECDA251C28EFAC005ED60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEECD9E81C28EFAC005ED60C /* Project object */;
+}
