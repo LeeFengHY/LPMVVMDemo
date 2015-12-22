@@ -22,8 +22,7 @@
         indexPath:(NSIndexPath *)indexPath;
 
 `#pragma mark --public`
-          
-+ (void)registerTable:(UITableView *)tableView
+          + (void)registerTable:(UITableView *)tableView
         nibIdentifier:(NSString *)identifier
 {
     [tableView registerNib:[UINib nibWithNibName:identifier bundle:nil] forCellReuseIdentifier:identifier];
