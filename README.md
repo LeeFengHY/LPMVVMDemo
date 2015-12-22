@@ -16,7 +16,7 @@
     _viewModel = [[LPTableViewModel alloc] initWithDataArray:self.dataArray cellIdentifire:[MVVMCell cellIdentifier] dataSourceBlock:dateSourceBlock cellHeightBlock:cellHeighBlock didSelectWithRow:didSelectBlock];
     [_viewModel handleDateSourceAndDelegateWithTableView:_tableView];
 
->绑定view和model
-- (void)configure:(UITableViewCell *)cell
+> 绑定view和model
+* - (void)configure:(UITableViewCell *)cell
         customObj:(id)obj
         indexPath:(NSIndexPath *)indexPath;
